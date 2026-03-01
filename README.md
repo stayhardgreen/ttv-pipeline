@@ -74,8 +74,6 @@ See the "Configuration" section for details on setting up different backends.
    - Stitch all generated video segments together using ffmpeg
    - Create a seamless final video from individually generated segments
 
-## Project Structure
-
 ### Core Files
 - `pipeline.py` - Main orchestration script that runs the end-to-end video generation pipeline
 - `keyframe_generator.py` - Handles generation of keyframes using Stability AI or OpenAI API
